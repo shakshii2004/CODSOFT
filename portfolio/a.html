@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shakshi's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="port.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading">
+        <div class="loading-text">
+            <div class="spinner"></div>
+            <h2>Loading...</h2>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="main-nav">
+        <div class="nav-wrapper">
+            <h2>SHAKSHI</h2>
+            <div class="menu">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-text">
+            <h1>SHAKSHI</h1>
+            <p>Computer Science Student & Web Developer</p>
+            <a href="#about" class="main-btn">Learn More</a>
+        </div>
+        <div class="scroll-hint">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section" data-aos="fade-up">
+        <div class="content-wrapper">
+            <img src="/portfolio/assests/images/profile.jpg" alt="Shakshi's Profile Picture" class="profile-pic">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Hello! I'm Shakshi, a passionate Computer Science student at Lovely Professional University 
+                    with a strong foundation in web development and programming. I specialize in creating
+                     responsive and user-friendly web applications using modern technologies.</p>
+                <p>With experience in both frontend development and AI integration, I strive to build 
+                    innovative solutions that make a difference. My expertise includes HTML, CSS, JavaScript, PHP, CPP,
+                     Python, and frameworks like Tailwind, Bootstrap</p>
+                <a href="assests/cv.pdf" class="main-btn" download>Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section" data-aos="fade-up">
+        <div class="content-wrapper">
+            <h2>My Skills</h2>
+            <div class="skills-list">
+                <div class="skill-box" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML/CSS</h3>
+                    <p>Responsive Web Design & Modern UI</p>
+                </div>
+                <div class="skill-box" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <p>Interactive Web Applications</p>
+                </div>
+                <div class="skill-box" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fab fa-python"></i>
+                    <h3>CPP</h3>
+                    <p>Object oriented programming</p>
+                </div>
+                <div class="skill-box" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fab fa-react"></i>
+                    <h3>PHP</h3>
+                    <p>Server side scripting</p>
+                </div>
+                <div class="skill-box" data-aos="fade-up" data-aos-delay="500">
+                    <i class="fas fa-database"></i>
+                    <h3>SQL/MySQL</h3>
+                    <p>Database Management</p>
+                </div>
+                <div class="skill-box" data-aos="fade-up" data-aos-delay="600">
+                    <i class="fab fa-git-alt"></i>
+                    <h3>Git/GitHub</h3>
+                    <p>Version Control</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section" data-aos="fade-up">
+        <div class="content-wrapper">
+            <h2>My Projects</h2>
+            <div class="projects-list">
+                <div class="project-box" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-info">
+                        <h3>PG Dissertation Management System</h3>
+                        <p>A role-based web application for managing PG dissertation submissions and evaluations using PHP, MySQL, HTML, CSS, and JavaScript.</p>
+                        <a href="https://stranger-strings.vercel.app/" class="main-btn" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="project-box" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-info">
+                        <h3>Calendar Scheduler Chatbot</h3>
+                        <p>An AI-powered chatbot with calendar integration for efficient meeting scheduling and reminders using HTML, CSS, JavaScript, and APIs.</p>
+                        <a href="https://calender-ai.vercel.app/" class="main-btn" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <div class="project-info">
+                        <h3>Harass Alert</h3>
+                        <p>A women's safety application that provides immediate support and resources for women facing harassment. Features include emergency SOS, incident reporting, and a knowledge center.</p>
+                        <a href="https://harass-alert.web.app/" class="main-btn" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section" data-aos="fade-up">
+        <div class="content-wrapper">
+            <h2>Get In Touch</h2>
+            <div class="contact-details">
+                <div class="contact-item" data-aos="fade-right" data-aos-delay="100">
+                    <i class="fas fa-envelope"></i>
+                    <span>shakshii2004@gmail.com</span>
+                </div>
+                <div class="contact-item" data-aos="fade-right" data-aos-delay="300">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Phagwara, Punjab</span>
+                </div>
+            </div>
+            <form class="contact-form" data-aos="fade-up" data-aos-delay="400">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="main-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="social-icons">
+            <a href="https://github.com/shakshii2004" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/shakshi26" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2025 Shakshi. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Form handling
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            this.reset();
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('.main-nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+
+        // Loading screen
+        window.addEventListener('load', function() {
+            const loader = document.querySelector('.loading');
+            loader.classList.add('fade-out');
+        });
+    </script>
+</body>
+</html>
